@@ -57,6 +57,8 @@ if (process.env.NODE_ENV === 'production') {
 
 
 // setting up express server
-application.listen("3000",()=>{
+app.set('port', process.env.PORT || 3000);
+
+application.listen(application.get('port'),()=>{
     console.log("server started");
 })
