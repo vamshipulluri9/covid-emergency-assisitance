@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aba5843b.chunk.css",
+    "main.js": "/static/js/main.2aaade79.chunk.js",
+    "main.js.map": "/static/js/main.2aaade79.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8d29b9f3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8d29b9f3.js.map",
+    "static/js/2.676bfb11.chunk.js": "/static/js/2.676bfb11.chunk.js",
+    "static/js/2.676bfb11.chunk.js.map": "/static/js/2.676bfb11.chunk.js.map",
+    "static/js/3.37b8f4e0.chunk.js": "/static/js/3.37b8f4e0.chunk.js",
+    "static/js/3.37b8f4e0.chunk.js.map": "/static/js/3.37b8f4e0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.aba5843b.chunk.css.map": "/static/css/main.aba5843b.chunk.css.map",
+    "static/js/2.676bfb11.chunk.js.LICENSE.txt": "/static/js/2.676bfb11.chunk.js.LICENSE.txt",
+    "static/media/templatemo-lava.css": "/static/media/undraw_medical_research_qg4d.f22ca7f1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d29b9f3.js",
+    "static/js/2.676bfb11.chunk.js",
+    "static/css/main.aba5843b.chunk.css",
+    "static/js/main.2aaade79.chunk.js"
+  ]
+}
