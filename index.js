@@ -37,7 +37,7 @@ application.use(function(req, res, next) {
   });
 
 // routing 
-application.use(express.static('client/build'));
+
 
 application.use("/api/users",userController);
 application.use("/api/auths",authController);
@@ -45,9 +45,15 @@ application.use("/api/hospitals",hospitalController);
 application.use("/api/request" , requestController);
 application.use("/api/plasmaDonars" , plasmaDonarController);
 
-application.use(function(req, res) {
-	res.sendFile(path.join(__dirname, '/client/build/index.html'));
-});
+if (process.env.NODE_ENV === 'production') {
+    application.use(express.static('client/build'));
+  
+    const path = require('path');
+    application.get('*', (req,res) => {
+        res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
+    })
+  
+  }
 
 
 // setting up express server
