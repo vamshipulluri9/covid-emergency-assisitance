@@ -28,14 +28,14 @@ So Most of the project is based on JAVASCRIPT language.
 `cd Covid-Emergency-Assistance_production`  
 `npm install`  
 
-`cd Covid-Emergency-Assistance_production/client`
-`npm install`
-`npm build`
+`cd Covid-Emergency-Assistance_production/client`  
+`npm install`  
+`npm build`  
 
-`cd ../`
+`cd ../`  
 `npm start`
 
 ## ProcessFlow Diagram
 
-
+![Process Flow Diagram](ProcessFlowDiagram.png)
 
