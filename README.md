@@ -37,5 +37,5 @@ So Most of the project is based on JAVASCRIPT language.
 
 ## ProcessFlow Diagram
 
-![Process Flow Diagram](ProcessFlow.png)
+![Process Flow Diagram](ProcessFlowImage.png)
 
