@@ -225,7 +225,7 @@ else if(props.userLogged.role===1)return(
                           <MenuItem value={1}>Beds</MenuItem>
                           <MenuItem value={2}>Oxygen</MenuItem>
                           <MenuItem value={3}>Blood</MenuItem>
-                          <MenuItem value= {4}>Profile</MenuItem>
+                         {/*<MenuItem value= {4}>Profile</MenuItem>*/}
                       </Select>
                   </FormControl>
 
@@ -323,7 +323,7 @@ else if(props.userLogged.role===1)return(
                 )
               }
 
-            {     
+            {/*     
                   updatedDetails.resource===4 && (<Grid container spacing={2}>
                      
                        
@@ -372,7 +372,7 @@ else if(props.userLogged.role===1)return(
             </Grid>
           </Grid>
                 )
-              }
+              */}
 
               
           </Grid>

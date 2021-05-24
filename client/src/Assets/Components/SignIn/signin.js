@@ -74,7 +74,7 @@ export default function SignIn(props) {
 
  
 
-  if(props.userLogged)return <Redirect to="/"></Redirect>;
+  if(props.userLogged)return <Redirect to="/profile"></Redirect>;
   
 
   const handleChange= (event) =>{
