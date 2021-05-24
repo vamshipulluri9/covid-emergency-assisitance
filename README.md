@@ -1,5 +1,7 @@
 # Covid Emergency Assisance
 
+#### This Website is temporarily deployed at https://covid-emergency-assistance2.herokuapp.com/
+
 ## Description
 Covid emergency assistance is a fully functional Web application which is aimed at providing the emergency resources to patients with need. 
 
@@ -16,10 +18,10 @@ All these details are stored in a database and accessed by web app when a patien
 
 The Entire project can be divided into : 
 
-Front End :-   done by REACTJS ( additional packages :- MaterialUI )  
-Back End :-   done by EXPRESSJS (additional packages : express-jwt , Bcrypt, Mongoose )  
-Database :-  MONGODB (ATLAS)  
-Deployment :- Heroku Cloud Platform  
+Front End :-  **REACTJS** ( additional packages :- MaterialUI )  
+Back End :-  **EXPRESSJS** (additional packages : express-jwt , Bcrypt, Mongoose )  
+Database :-  **MONGODB** (ATLAS)  
+Deployment :- **Heroku** Cloud Platform  
 
 So Most of the project is based on JAVASCRIPT language.
 
@@ -35,7 +37,16 @@ So Most of the project is based on JAVASCRIPT language.
 `cd ../`  
 `npm start`
 
-## ProcessFlow Diagram
+## Process Flow Diagram
 
-![Process Flow Diagram](ProcessFlowImage.png)
+![Process Flow Diagram](ProcessFlowImage.png)  
+
+## Data Flow Diagram
+
+![Data Flow Diagram](DataFlowImage.png)  
+
+
+### THANK YOU
+
+
 
